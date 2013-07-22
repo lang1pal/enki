@@ -63,7 +63,9 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem 'pg'
+
 group :production do
   # gems specifically for Heroku go here
-  gem "pg"
+  # gem "pg"
 end
