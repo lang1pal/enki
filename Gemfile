@@ -1,5 +1,6 @@
 source 'http://ruby.taobao.org'
 
+ruby '1.9.3'
 gem 'rails', '~> 4.0.0'
 
 # Bundle edge Rails instead:
@@ -62,5 +63,5 @@ end
 
 group :production do
   # gems specifically for Heroku go here
-  gem "pg"
+  # gem "pg"
 end
