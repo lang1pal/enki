@@ -11,7 +11,7 @@ gem 'rails', '~> 4.0.0'
 gem 'sass-rails'
 
 platforms :ruby do
-  gem 'sqlite3'
+#  gem 'sqlite3'
 end
 
 platforms :jruby do
@@ -55,13 +55,15 @@ group :test do
   gem 'rspec'
   gem 'nokogiri', '~> 1.5.0'
   gem 'webrat'
+  gem 'sqlite3'
 end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'sqlite3'
 end
 
 group :production do
   # gems specifically for Heroku go here
-  # gem "pg"
+  gem "pg"
 end
